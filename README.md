@@ -49,6 +49,9 @@ In the example above we used the `onAny` callback, but there are also callbacks 
     looper.onGroupFound
     // called when a property group is found
 
+    looper.onEnd
+    // called right before the search ends
+
 ```
 
 See more examples in the [examples folder](./examples).

@@ -5,7 +5,7 @@ When developing for After-Effects it is often the case that we want to loop thro
 
 With this class ( `PropertyTreeLooper` ) you can do just that.
 
-
+  
  
 ## Usage
 

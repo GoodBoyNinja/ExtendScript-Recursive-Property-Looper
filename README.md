@@ -6,7 +6,7 @@ When developing for After-Effects it is often the case that we want to loop thro
 With this class ( `PropertyTreeLooper` ) you can do just that.
 
 
-
+ 
 ## Usage
 
 1. Include the script in your project as a file and import it:

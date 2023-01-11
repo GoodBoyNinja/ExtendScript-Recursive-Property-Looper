@@ -30,7 +30,7 @@ looper.onAny = function(prop) {
 
 4. Execute the loop with a layer or a group as the argument:
 ```jsx
-    looper.loop(layer);
+looper.loop(layer);
 ```
 
 
@@ -40,17 +40,17 @@ looper.onAny = function(prop) {
 
 In the example above we used the `onAny` callback, but there are also callbacks for more specific use cases:
 ```jsx
-    looper.onAny
-     // called when any property is found
+looper.onAny
+    // called on each iteration of the loop
 
-    looper.onPropertyFound
-    // called when a property is found (specifically a property, not a group or a layer)
+looper.onPropertyFound
+// called when a property is found (specifically a property, not a group or a layer)
 
-    looper.onGroupFound
-    // called when a property group is found
+looper.onGroupFound
+// called when a property group is found
 
-    looper.onEnd
-    // called right before the search ends
+looper.onEnd
+// called right before the search ends
 
 ```
 

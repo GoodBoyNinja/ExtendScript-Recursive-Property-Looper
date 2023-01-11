@@ -17,15 +17,15 @@ $.evalFile(File("../src/PropertyTreeLooper.jsx").fsName); // include the Propert
 
 
     var strokePropertyGroups = [];
-    var Looper = new PropertyTreeLooper(); // create a new instance of the PropertyTreeLooper class
-    Looper.onGroupFound = function (prop) {
+    var looper = new PropertyTreeLooper(); // create a new instance of the PropertyTreeLooper class
+    looper.onGroupFound = function (prop) {
         if (prop.matchName === "ADBE Vector Graphic - Stroke") {
          strokePropertyGroups.push(prop);
         }
     };
 
     for (var i = 0; i < selectedLayers.length; i++) {
-        Looper.loop(selectedLayers[i]);
+        looper.loop(selectedLayers[i]);
     }
 
     if (strokePropertyGroups.length === 0) {

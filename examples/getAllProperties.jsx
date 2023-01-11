@@ -17,11 +17,11 @@ $.evalFile(File("../src/PropertyTreeLooper.jsx").fsName); // include the Propert
 
 
     var properties = [];
-    var Looper = new PropertyTreeLooper(); // create a new instance of the PropertyTreeLooper class
-    Looper.onPropertyFound = function (prop) {
+    var looper = new PropertyTreeLooper(); // create a new instance of the PropertyTreeLooper class
+    looper.onPropertyFound = function (prop) {
         properties.push(prop);
     };
-    Looper.loop(firstSelectedLayer);
+    looper.loop(firstSelectedLayer);
 
 
     alert("Found " + properties.length + " properties.");

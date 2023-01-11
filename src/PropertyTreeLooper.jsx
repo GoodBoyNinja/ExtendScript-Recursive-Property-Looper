@@ -3,7 +3,7 @@
 */
 var PropertyTreeLooper = function () {
     var rootClass = this;
-
+ 
     /**
     * @description callbacks
     * @param {function} onAny - callback for each time a property, group or layer is found (regardless of type)

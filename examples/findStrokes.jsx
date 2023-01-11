@@ -38,3 +38,4 @@ $.evalFile(File("../src/PropertyTreeLooper.jsx").fsName); // include the Propert
     // Now do something with the strokePropertyGroups array....
 
 })();
+ 
